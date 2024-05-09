@@ -183,7 +183,7 @@ function SearchableProductTable() {
 
     const onRequestButtonClick = async () => {
         setElements({message: 'Waiting for response'});
-        const url = 'https://weather-service-b2i7.onrender.com?' +
+        const url = 'https://weather-service-b2i7.onrender.com/forecast?' +
             (latitude !== '' ? 'latitude=' + latitude : '') +
             (longitude !== '' ? (latitude !== '' ? '&' : '') + 'longitude=' + longitude : '');
         await fetch(url)
