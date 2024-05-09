@@ -1,0 +1,63 @@
+.tableDiv {
+    margin: auto;
+    overflow-x: auto;
+    padding: 10px;
+    /*font-family: Lucida Sans, Helvetica, Arial, sans-serif;*/
+    color: black;
+}
+
+.tableDiv::-webkit-scrollbar {
+    height: 10px;
+}
+
+.tableDiv::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.tableDiv::-webkit-scrollbar-thumb {
+    background: #fbcc85;
+    border-radius: 5px;
+}
+
+.table {
+    display: table;
+    margin: auto;
+    border-spacing: 10px 0;
+}
+
+.tableHeader {
+    min-width: 125px;
+    padding: 10px 5px 5px 5px;
+    background-color: rgba(255, 222, 173, 0.7);
+}
+
+.tableIconCell {
+    background-color: rgba(255, 222, 173, 0.15);
+}
+
+.infoCell {
+    background-color: rgba(255, 222, 173, 0.7);
+    padding: 10px;
+}
+
+.icon {
+    font-size: 50px;
+    padding: 20px;
+    color: rgb(251, 204, 133);
+}
+
+.darkModeButton {
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid black;
+    color: rgb(115, 71, 4);
+    margin-right: 40px;
+}
+
+.searchForm {
+    background-color: rgba(255, 222, 173, 0.7);
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px;
+}

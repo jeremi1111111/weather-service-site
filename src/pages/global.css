@@ -1,0 +1,26 @@
+* {
+    --light-color: rgb(250, 247, 242);
+    --dark-color: rgba(9, 6, 2, 0.89);
+    --bkg-color: var(--light-color)
+}
+
+@media (prefers-color-scheme: dark) {
+    * {
+        --bkg-color: var(--dark-color);
+    }
+}
+
+body {
+    text-align: center;
+
+    background-color: var(--bkg-color);
+    font-family: Lucida Sans, Helvetica, Arial, sans-serif;
+}
+
+body.light {
+    background-color: var(--light-color);
+}
+
+body.dark {
+    background-color: var(--dark-color);
+}
